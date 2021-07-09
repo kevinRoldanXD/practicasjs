@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 .header{
@@ -281,5 +284,32 @@
         background-color: rgba(78, 77, 77, 0.158);
     }
 
+    .section{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .svg{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section2{
+        flex-direction: column;
+        padding-bottom: 49px;
+        align-items: center;
+    }
+
+
+    .article2{
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+
+    .container2{
+        width: 100%;
+        margin: auto;
+    }
 }
     

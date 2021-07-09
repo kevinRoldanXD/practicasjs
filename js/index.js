@@ -2,7 +2,7 @@ let btn_responsive = document.getElementById('btn');
 let contenedor_enlases = document.getElementById('contenedor_enlases');
 let evaluador = 0;
 
-btn_responsive.addEventListener('click',()=>{
+btn_responsive.addEventListener('click',()=>{        // function the bottom resposive wev desing
     evaluador += 1;
 
     if(evaluador <= 1){
